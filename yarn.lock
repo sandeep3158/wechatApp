@@ -2030,10 +2030,15 @@ prettier@3.4.2:
   resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.4.2.tgz#a5ce1fb522a588bf2b78ca44c6e6fe5aa5a2b13f"
   integrity sha512-e9MewbtFo+Fevyuxn/4rrcDAaq0IYxPGLvObpQjiZBMAzB9IGmzlnG9RZy3FFas+eBMu2vA0CszMeduow5dIuQ==
 
-primereact@^10.8.5:
-  version "10.8.5"
-  resolved "https://registry.yarnpkg.com/primereact/-/primereact-10.8.5.tgz#adc7dcb0ff10f269eee814d6f1e3409779870ea8"
-  integrity sha512-B1LeJdNGGAB8P1VRJE0TDYz6rZSDwxE7Ft8PLFjRYLO44+mIJNDsLYSB56LRJOoqUNRhQrRIe/5ctS5eyQAzwQ==
+primeflex@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/primeflex/-/primeflex-3.3.1.tgz#361dddf6eb5db50d733e4cddd4b6e376a3d7bd68"
+  integrity sha512-zaOq3YvcOYytbAmKv3zYc+0VNS9Wg5d37dfxZnveKBFPr7vEIwfV5ydrpiouTft8MVW6qNjfkaQphHSnvgQbpQ==
+
+primereact@^10.9.2:
+  version "10.9.2"
+  resolved "https://registry.yarnpkg.com/primereact/-/primereact-10.9.2.tgz#6d45c80d5e73f3e61fab58eeffd842007daedaf8"
+  integrity sha512-uJTghCPlnPWJc0mvkqYJDj6bl4udROPGrMEfV4CPh7UurMS+E8b+82ABZ+OPWibQOWxnEQl5NXcfG4F/7YRXwA==
   dependencies:
     "@types/react-transition-group" "^4.4.1"
     react-transition-group "^4.4.1"

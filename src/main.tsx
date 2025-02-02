@@ -1,8 +1,11 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
 import { PrimeReactProvider } from 'primereact/api';
+import 'primereact/resources/primereact.css';
+import "primereact/resources/themes/lara-light-cyan/theme.css";
+import { StrictMode } from 'react';
+import { createRoot } from 'react-dom/client';
 import { App } from './App';
+import './index.css';
+import '/node_modules/primeflex/primeflex.css';
 
 const rootElement = document.getElementById('root');
 

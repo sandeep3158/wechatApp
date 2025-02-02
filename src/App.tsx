@@ -4,13 +4,10 @@ import { Home } from './components/Home';
 import { Login } from './components/Login';
 
 export const App = () => {
-
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route>
-        <Route path="/" element={<Home />}>
-        </Route>
-
+        <Route path="/" element={<Home />} />
         <Route path="login" element={<Login />} />
         <Route path="*" element={<h1>Page not found</h1>} />
       </Route>
@@ -18,9 +15,7 @@ export const App = () => {
   );
 
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <RouterProvider router={router} />
   )
 }
 
